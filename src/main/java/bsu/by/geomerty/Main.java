@@ -13,10 +13,10 @@ public class Main {
         Circle circle = new Circle(1,1,1);
         printer.print(circle);
 
-        Rectangle rectangle = new Rectangle(3,9);
+        Rectangle rectangle = new Rectangle(3,9,9,4);
         printer.print(rectangle);
 
-        Triangle triangle = new Triangle(3,4,5);
+        Triangle triangle = new Triangle(0,0,3,3,5,6);
         printer.print(triangle);
 
 
