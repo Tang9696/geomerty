@@ -11,7 +11,7 @@ public class Triangle implements Shape{
     private int y3;
     private double x, y, z;
 
-    public Triangle(int x,int y,int x2,int y2,int x3,int y3){
+    public Triangle(int x1,int y1,int x2,int y2,int x3,int y3){
         this.x1 = x1;
         this.y1 = y1;
         this.x2 = x2;
