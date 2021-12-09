@@ -9,7 +9,6 @@ import org.junit.Test;
 public class CircleTest {
 
     @Test
-<<<<<<< HEAD
     public void testArea(){
         Circle circle = new Circle(1,1,1);
         double area = circle.calculateArea();
@@ -25,20 +24,20 @@ public class CircleTest {
 
     }
     @Test
-    public void testPerimeter(){
-        Circle circle = new Circle(1,1,1);
+    public void testPerimeter() {
+        Circle circle = new Circle(1, 1, 1);
         double perimeter = circle.calculatePerimeter();
-        Assert.assertEquals(6.28,perimeter,0.03);
+        Assert.assertEquals(6.28, perimeter, 0.03);
 
-        Rectangle rectangle = new Rectangle(3,9);
+        Rectangle rectangle = new Rectangle(3, 9);
         double perimeter1 = rectangle.calculatePerimeter();
-        Assert.assertEquals(24,perimeter1,0);
+        Assert.assertEquals(24, perimeter1, 0);
 
-        Triangle triangle = new Triangle(3,4,5);
+        Triangle triangle = new Triangle(3, 4, 5);
         double perimeter2 = triangle.calculatePerimeter();
-        Assert.assertEquals(12,perimeter2,0);
-
-=======
+        Assert.assertEquals(12, perimeter2, 0);
+    }
+    @Test
     public void testCircleArea(){
         Circle circle = new Circle(1,1,1);
         double area = circle.calculateArea();
@@ -116,7 +115,6 @@ public class CircleTest {
         Triangle triangle = new Triangle(-3,-4,5);
         double perimeter2 = triangle.calculatePerimeter();
         Assert.assertEquals(-2,perimeter2,0);
->>>>>>> 61c6fc5 (Initial commit)
     }
 
 }
